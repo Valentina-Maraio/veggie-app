@@ -2,13 +2,24 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: orange;
-  min-height: 100px;
+.App-header, .search {
+  background-color: green;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.complete-meal, .international {
+  margin: 30px;
+  min-height: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  color: white;
+  color: black;
 }
+
