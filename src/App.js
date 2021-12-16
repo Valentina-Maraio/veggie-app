@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './comps/Footer';
 import Menu from './comps/Menu'
 import Recipes from './comps/Recipes';
 import Search from './comps/Search';
@@ -21,6 +22,9 @@ function App() {
         <div className="international">
           <h2>Ricette vegetariane dal mondo</h2>
             <Recipes />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </div>

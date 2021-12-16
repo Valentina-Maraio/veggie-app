@@ -9,10 +9,8 @@ const Search = () => {
             <InputGroup className="mb-3">
                 <FormControl
                 placeholder="Search a recipes"
-                aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
                 />
-                    <Button variant="secondary" id="search-btn">
+                    <Button variant="warning" id="search-btn">
                     Search
                     </Button>
             </InputGroup>
